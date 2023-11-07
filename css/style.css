@@ -1,0 +1,1111 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+:root {
+    --ff-primary: "Poppins", sans-serif;
+    --ff-secondary: "Montserrat", sans-serif;
+    --title-color: #343434;
+    --main-color: #1c1c1c;
+    --section-padding: 100px 0;
+}
+
+body {
+    font-family: var(--ff-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.logo {
+    font-family: var(--ff-secondary);
+}
+
+a {
+    color: #fff;
+}
+
+p {
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+
+.navbar {
+    padding: 20px 0 30px;
+}
+
+.logo {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.section-padding {
+    padding: var(--section-padding);
+}
+
+.bg-gray {
+    background-color: #f7f7f7;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.section-title h3 {
+    font-weight: 800;
+    font-size: 40px;
+    position: relative;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.section-title h3::after {
+    content: "";
+    width: 100%;
+    height: 30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    z-index: -1;
+}
+
+.navbar .navbar-nav>li {
+    font-size: 14px;
+    margin: 25px 20px 0;
+    cursor: pointer;
+}
+
+.navbar .navbar-nav>li a {
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #fff;
+}
+
+.navbar .navbar-nav li .active {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+
+#home {
+    background-image: url(../imgs/bg.jpg);
+    background-size: cover;
+    background-position: 0px 0px;
+    height: 100vh;
+}
+
+#home .overlay {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 100%;
+}
+
+#home .overlay .animated::after {
+    content: " |";
+    -webkit-animation: description 6s forwards 0s infinite;
+    animation: description 6s forwards 0s infinite;
+}
+
+@-webkit-keyframes description {
+    0% {
+        content: " |";
+    }
+
+    1.6% {
+        content: " L|";
+    }
+
+    3.5% {
+        content: " La|";
+    }
+
+    4.8% {
+        content: " Lar|";
+    }
+
+    6.4% {
+        content: " Larr|";
+    }
+
+    8% {
+        content: " Larry|";
+    }
+
+    9.6% {
+        content: " Larry |";
+    }
+
+    11.2% {
+        content: " Larry D|";
+    }
+
+    12.8% {
+        content: " Larry Da|";
+    }
+
+    14.4% {
+        content: " Larry Dan|";
+    }
+
+    16% {
+        content: " Larry Dani|";
+    }
+
+    17.6% {
+        content: " Larry Danie|";
+    }
+
+    19.2% {
+        content: " Larry Daniel|";
+    }
+
+    20.8% {
+        content: " Larry Daniels|";
+    }
+
+    22.5% {
+        content: " Larry Daniels|";
+    }
+
+    23% {
+        content: " Larry Daniel|";
+    }
+
+    24% {
+        content: " Larry Danie|";
+    }
+
+    25.6% {
+        content: " Larry Dani|";
+    }
+
+    27.2% {
+        content: " Larry Dan|";
+    }
+
+    28.8% {
+        content: " Larry Da|";
+    }
+
+    30.4% {
+        content: " Larry D|";
+    }
+
+    32% {
+        content: " Larry |";
+    }
+
+    33.6% {
+        content: " Larry|";
+    }
+
+    36.8% {
+        content: " Larr|";
+    }
+
+    38.4% {
+        content: " Lar|";
+    }
+
+    40% {
+        content: " La|";
+    }
+
+    41.6% {
+        content: " L|";
+    }
+
+    43.2% {
+        content: " |";
+    }
+
+    44.8% {
+        content: " D|";
+    }
+
+    46.4% {
+        content: " De|";
+    }
+
+    48% {
+        content: " Dev|";
+    }
+
+    49.6% {
+        content: " Deve|";
+    }
+
+    51.2% {
+        content: " Devel|";
+    }
+
+    52.8% {
+        content: " Develo|";
+    }
+
+    54.4% {
+        content: " Develop|";
+    }
+
+    56% {
+        content: " Develope|";
+    }
+
+    57.6% {
+        content: " Developer|";
+    }
+
+    59% {
+        content: " Developer|";
+    }
+
+    59.2% {
+        content: " Develope|";
+    }
+
+    60.8% {
+        content: " Develop|";
+    }
+
+    62.4% {
+        content: " Develo|";
+    }
+
+    64% {
+        content: " Devel|";
+    }
+
+    65.6% {
+        content: " Deve|";
+    }
+
+    67.2% {
+        content: " Dev|";
+    }
+
+    68.8% {
+        content: " De|";
+    }
+
+    70.4% {
+        content: " D|";
+    }
+
+    72% {
+        content: " |";
+    }
+
+    73.6% {
+        content: " D|";
+    }
+
+    75.2% {
+        content: " De|";
+    }
+
+    76.8% {
+        content: " Des|";
+    }
+
+    78.4% {
+        content: " Desi|";
+    }
+
+    80% {
+        content: " Desig|";
+    }
+
+    81.6% {
+        content: " Design|";
+    }
+
+    83.2% {
+        content: " Designe|";
+    }
+
+    84.8% {
+        content: " Designer|";
+    }
+
+    86% {
+        content: " Designer|";
+    }
+
+    86.4% {
+        content: " Designe|";
+    }
+
+    88% {
+        content: " Design|";
+    }
+
+    89.6% {
+        content: " Desig|";
+    }
+
+    91.2% {
+        content: " Desi|";
+    }
+
+    92.8% {
+        content: " Des|";
+    }
+
+    94.4% {
+        content: " De|";
+    }
+
+    96% {
+        content: " D|";
+    }
+
+    97.6% {
+        content: " |";
+    }
+}
+
+@keyframes description {
+    0% {
+        content: " |";
+    }
+
+    1.6% {
+        content: " L|";
+    }
+
+    3.5% {
+        content: " La|";
+    }
+
+    4.8% {
+        content: " Lar|";
+    }
+
+    6.4% {
+        content: " Larr|";
+    }
+
+    8% {
+        content: " Larry|";
+    }
+
+    9.6% {
+        content: " Larry |";
+    }
+
+    11.2% {
+        content: " Larry D|";
+    }
+
+    12.8% {
+        content: " Larry Da|";
+    }
+
+    14.4% {
+        content: " Larry Dan|";
+    }
+
+    16% {
+        content: " Larry Dani|";
+    }
+
+    17.6% {
+        content: " Larry Danie|";
+    }
+
+    19.2% {
+        content: " Larry Daniel|";
+    }
+
+    20.8% {
+        content: " Larry Daniels|";
+    }
+
+    22.5% {
+        content: " Larry Daniels|";
+    }
+
+    23% {
+        content: " Larry Daniel|";
+    }
+
+    24% {
+        content: " Larry Danie|";
+    }
+
+    25.6% {
+        content: " Larry Dani|";
+    }
+
+    27.2% {
+        content: " Larry Dan|";
+    }
+
+    28.8% {
+        content: " Larry Da|";
+    }
+
+    30.4% {
+        content: " Larry D|";
+    }
+
+    32% {
+        content: " Larry |";
+    }
+
+    33.6% {
+        content: " Larry|";
+    }
+
+    36.8% {
+        content: " Larr|";
+    }
+
+    38.4% {
+        content: " Lar|";
+    }
+
+    40% {
+        content: " La|";
+    }
+
+    41.6% {
+        content: " L|";
+    }
+
+    43.2% {
+        content: " |";
+    }
+
+    44.8% {
+        content: " D|";
+    }
+
+    46.4% {
+        content: " De|";
+    }
+
+    48% {
+        content: " Dev|";
+    }
+
+    49.6% {
+        content: " Deve|";
+    }
+
+    51.2% {
+        content: " Devel|";
+    }
+
+    52.8% {
+        content: " Develo|";
+    }
+
+    54.4% {
+        content: " Develop|";
+    }
+
+    56% {
+        content: " Develope|";
+    }
+
+    57.6% {
+        content: " Developer|";
+    }
+
+    59% {
+        content: " Developer|";
+    }
+
+    59.2% {
+        content: " Develope|";
+    }
+
+    60.8% {
+        content: " Develop|";
+    }
+
+    62.4% {
+        content: " Develo|";
+    }
+
+    64% {
+        content: " Devel|";
+    }
+
+    65.6% {
+        content: " Deve|";
+    }
+
+    67.2% {
+        content: " Dev|";
+    }
+
+    68.8% {
+        content: " De|";
+    }
+
+    70.4% {
+        content: " D|";
+    }
+
+    72% {
+        content: " |";
+    }
+
+    73.6% {
+        content: " D|";
+    }
+
+    75.2% {
+        content: " De|";
+    }
+
+    76.8% {
+        content: " Des|";
+    }
+
+    78.4% {
+        content: " Desi|";
+    }
+
+    80% {
+        content: " Desig|";
+    }
+
+    81.6% {
+        content: " Design|";
+    }
+
+    83.2% {
+        content: " Designe|";
+    }
+
+    84.8% {
+        content: " Designer|";
+    }
+
+    86% {
+        content: " Designer|";
+    }
+
+    86.4% {
+        content: " Designe|";
+    }
+
+    88% {
+        content: " Design|";
+    }
+
+    89.6% {
+        content: " Desig|";
+    }
+
+    91.2% {
+        content: " Desi|";
+    }
+
+    92.8% {
+        content: " Des|";
+    }
+
+    94.4% {
+        content: " De|";
+    }
+
+    96% {
+        content: " D|";
+    }
+
+    97.6% {
+        content: " |";
+    }
+}
+
+#home .overlay .home-content {
+    color: #fff;
+    margin-top: 50px;
+}
+
+#home .overlay .home-content h5 {
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+#home .overlay .home-content h1 span {
+    font-size: 60px;
+}
+
+#home .overlay .home-content .social-links li {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 14px;
+    margin: 0 3px;
+}
+
+#about .image {
+    padding: 0 0 0 30px;
+    position: relative;
+}
+
+#about .image::after {
+    content: "";
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    left: 0px;
+    bottom: -30px;
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: -1;
+}
+
+#about .about-content h3 {
+    font-size: 30px;
+    font-weight: 800;
+    color: var(--title-color);
+}
+
+#about .about-content .job {
+    display: inline-block;
+    color: #999;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+#about .about-content p {
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+
+#about .about-content a {
+    font-size: 13px;
+    padding: 10px 20px;
+}
+
+.progress {
+    margin-bottom: 30px;
+    background: #f7f7f7;
+    -webkit-box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+    box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.15) inset;
+}
+
+.progress-bar {
+    border-radius: 6px;
+    background-color: var(--main-color);
+}
+
+#services .box {
+    padding: 50px 20px;
+    background: #fff;
+    -webkit-box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+#services .box .icon {
+    font-size: 30px;
+    margin-bottom: 20px;
+    width: 70px;
+    height: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#services .box:hover .icon {
+    background: var(--main-color);
+    color: #fff;
+}
+
+#services .box h6 {
+    margin-bottom: 15px;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+#services .box p {
+    word-spacing: 2px;
+    font-size: 14px;
+}
+#works .nav-item {
+    position: relative;
+}
+
+#works .nav-link {
+    margin: 0 15px;
+    color: #222;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0;
+    position: relative;
+}
+
+#works .nav-item .active {
+    position: relative;
+}
+
+#works .nav-link::after,
+#works .nav-item .active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 2px;
+    background-color: #222;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#works .nav-link::after {
+    width: 0px;
+}
+
+#works .nav-item .active::after,
+#works .nav-link:hover::after {
+    width: 100%;
+}
+
+#works .nav-link:hover,
+#works .nav-item .active:hover {
+    color: #222;
+}
+
+#works .image {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+#works .image .social {
+    position: absolute;
+    inset: 5px;
+    background: rgba(255, 255, 255, 0.95);
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    /* z-index: 2; */
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+#works .image:hover .social {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+#works .image .social .content h6 {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+#works .image:hover .social .content h6 {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+#works .image .social .content .icons {
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform: translateY(10px);
+    -ms-transform: translateY(10px);
+    transform: translateY(10px);
+}
+
+#works .image:hover .social .content .icons {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+}
+
+#works .image .social .content .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border: 1px solid #111;
+    background: #111;
+    color: #eee;
+    margin: 0 3px;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#works .image .social .content .icon:hover {
+    background: #fff;
+}
+
+#works .image .social .content .icon:hover a {
+    color: #000;
+}
+#clients .image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px;
+}
+
+#clients p {
+    word-spacing: 2px;
+}
+
+#clients h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 30px 0 5px;
+}
+
+#clients span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #888;
+    margin-bottom: 30px;
+}
+
+.carousel-indicators {
+    top: 100%;
+    margin-top: 20px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #869791;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 5px 7px;
+    border: none;
+}
+
+.counters .box .icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.counters .counter {
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.counters p {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#team .box {
+    background-color: rgba(52, 52, 52, 0.8);
+    border-radius: 6px;
+}
+
+#team .image {
+    position: relative;
+    overflow: hidden;
+}
+
+#team .image img {
+    -webkit-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s;
+    width: 100%;
+}
+
+#team .image:hover img {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#team .content {
+    padding: 25px;
+    color: #fff;
+    text-align: center;
+}
+
+#team .box .image .social-links {
+    background-color: rgba(255, 255, 255, 0.95);
+    position: absolute;
+    text-align: center;
+    inset: 5px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    opacity: 0;
+    -webkit-transform: rotateY(180deg) scale(0.5, 0.5);
+    transform: rotateY(180deg) scale(0.5, 0.5);
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#team .box:hover .image .social-links {
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transform: rotateY(0deg) scale(1, 1);
+    transform: rotateY(0deg) scale(1, 1);
+}
+
+#team .box .image .social-links ul li {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 20px;
+    margin: 0 3px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#team .box .image .social-links ul li:hover {
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+#team .box .image .social-links ul li:hover a {
+    color: #000;
+}
+
+#contact .box .icon {
+    font-size: 25px;
+    margin: 0 auto 15px;
+
+    width: 60px;
+    height: 60px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+#contact .box:hover .icon {
+    background: var(--main-color);
+    color: #fff;
+}
+
+#contact .box h6 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#contact .form .form-group {
+    margin-bottom: 15px;
+}
+
+#contact .form input[type="text"],
+#contact .form input[type="email"],
+#contact .form textarea {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    background: #f4f4f4;
+}
+
+#contact .btn {
+    padding: 10px 40px;
+    font-size: 13px;
+}
+
+footer {
+    background: #1c1c1c;
+    padding: 30px;
+}
+
+footer p {
+    font-size: 13px;
+    word-spacing: 2px;
+}
+
